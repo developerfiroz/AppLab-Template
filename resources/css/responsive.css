@@ -1,0 +1,116 @@
+
+@media only screen and (max-width:1200px){
+    .sticky{
+        padding: 10px 40px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .sticky{
+        padding: 10px 30px;
+    }
+    #banner {
+        margin-top: 45px;
+    }
+    header{
+        margin-top: 10px;
+    }
+   header .logo {
+        text-align: start !important;
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: -10px;
+        top: -30px;
+        color: #2563FF !important;
+    }
+    .sticky .navbar-toggler {
+        right: 20px;
+        top: 7px;
+    }
+    header .button{
+        display: none;
+    }
+    section {
+        padding: 40px 0 0px 0;
+    }
+    .smartjack_head h2 {
+        max-width: 560px;
+    }
+    .smartjack_subhead p, .ultimate_box h2 {
+        max-width: 571px;
+    }
+    .smartjack_subhead p {
+        border-left: none;
+        height: auto;
+        padding-left: 0;
+    }
+    .ultimate_ab , .meetimg_ab , .download_ab{
+        position: static;
+        transform: translateY(0%);
+    }
+}
+@media only screen and (max-width:768px){
+    .sticky {
+        padding: 10px 5%;
+    }
+    .sticky .navbar-toggler {
+        right: 5%;
+    }
+    .banner-content h2 {
+        font-size: 50px;
+    }
+    .video-btn{
+        margin-left: 15px;
+    }
+    .appfeature_head h2 {
+        max-width: 100%;
+    }
+    .smartjack_head h2 {
+        max-width: 100%;
+    }
+    .title_head {
+        font-size: 32px;
+    }
+    .designbuild_box h2 {
+        max-width: 400px;
+    }
+    .getfe_head h2 {
+        max-width: 386px;
+    }
+    .meet_head h2 {
+        max-width: 394px;
+    }
+   
+}
+@media only screen and (max-width:576px){
+    .sticky {
+        padding: 10px 5%;
+    }
+    .sticky .navbar-toggler {
+        right: 5%;
+    }
+    .universal-text p {
+        font-size: 13px !important;
+        padding: 0 50px 0 10px;
+        max-width: 287px;
+    }
+    .homefirst_txt img {
+        padding: 7px;
+    }
+    .banner-content h2 {
+        font-size: 32px;
+        line-height: 45px;
+        max-width: 285px;
+    }
+    .universal-text p{
+        font-size: 15px;
+    }
+    .title_head {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+@media only screen and (max-width:480px){
+    
+}
